@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 3.5vh;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+.barra-navegacion{
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 140px;
+    border-bottom: 5px solid orangered;
+    background-color: #2c4d56;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    width: 100%;
+}
+
+.logo{
+    height: 120px;
+    padding-bottom: 10px;
+}
+.contenedormenu {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+li{
+    float: left;
+    text-align: center;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+
+a{
+    text-decoration: none;
+    color: orangered;
+    font-weight: bolder;
+    font-size: 20px;
+    border-bottom: 3px solid ;
+}
+
+.fotito{
+    height: 520px;
+}
+
+#inicio{
+    margin-top: 140px;
+}
+
+#carouselExampleCaptions{
+    width: 100%;
+}
+
+#nosotros{
+ width: 80%;   
+ margin: 0 auto;
+ text-align: center;
+}
+
+#nosotros p{
+    font-size: 5vh;
+}
+
+h2{
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 10vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{
+
+}
+
+
+
+.container{
+    margin-top: 70px;
+}
+
+h5{
+    font-size: 40px;
+}
+
+.text-somos{
+    text-align: justify;
+}
+
+#servicios{
+    width: 80%;   
+    margin: 0 auto;
+    text-align: center;
+   }
+
+.accordion-button.collapsed {
+    font-weight: bolder;
+    text-align: center;
+  }
+
+.accordion-button:not(.collapsed) {
+    background-color: #2c4d56;
+    color: orangered;
+    font-weight: bolder;
+  }
+
+
+.accordion-body{
+    text-align: justify;
+  }
+
+  .accordion-body dlaboral{
+    text-align: justify;
+  }
+
+#experiencia{
+    margin-top: 200px;
+}
+
+#servicios{
+    margin-top: 150px;
+}
+
+.dlaboral:checked  {
+    filter: orangered;
+}
+
+
+.dlaboral{
+    height: 70px;
+}
+
+.clientes{
+    padding: 20px 0 15px 0;
+}
+
+.clientes h2{
+    margin: 0;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+
+.swiper-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+#contacto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-top: 30px;
+    
+}
+
+.contactar{
+    border: 5px solid #2c4d56;
+    width: 40%;
+    background-color: rgba(228, 228, 228, 0.438);
+    padding: 20px;
+    align-content: center;
+   
+}
+
+.botoncito{
+    color: orangered;
+    background-color: #2c4d56 ;
+    font-weight: bolder;
+}
+
+imput{
+    align-items: center;
+}
+
+.envio{
+    width: 100px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+@media (max-width: 895px){
+    nav ul{
+        display: none;
+    }
+
+    .contactar{
+        width: 90%;
+        
+    }
+
+    h2{
+        font-size: 8vh;
+    }
+
+    #experiencia h2{
+        font-size: 6vh;
+    }
+    
+    .fotito{
+        height: 420px;
+    }
+
+    .barra-navegacion{
+        height: 240px;
+        align-items: center;
+    }
+
+    .custom-alert {
+        background-color: #2c4d56; 
+        color: orangered; 
+        font-size: 2vh; 
+        width: 40%;
+        border: 2px solid orangered;
+        text-align:center; 
+        padding: 10px; 
+        position: fixed;
+        top:30%;
+        left: 30%;
+        right: 0;
+        bottom: ;
+        z-index: 9999999; 
+      }
+}
+
+.pie{
+    border-top: 5px solid orangered;
+    background-color: #2c4d56;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo2{
+    height: 50px;
+    padding: 5px;
+}
+
+.pie p{
+    color: #dff0f5;
+    font-size: 15px;
+    
+}
+
+.contenedorfoot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+}
+
+.custom-alert {
+    background-color: #2c4d56; /* Cambia el color de fondo según tu preferencia */
+    color: orangered; /* Cambia el color del texto según tu preferencia */
+    font-size: 4vh; /* Cambia el tamaño de fuente según tu preferencia */
+    width: 40%;
+    border: 2px solid orangered;
+    text-align:center; /* Alinea el texto al centro si lo deseas */
+    padding: 10px; /* Añade espaciado interno según tu preferencia */
+    position: fixed;
+    top:30%;
+    left: 30%;
+    right: 0;
+    bottom: ;
+    z-index: 9999999; /* Asegura que esté encima de otros elementos */
+  }
+  
